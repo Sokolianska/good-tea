@@ -1,0 +1,96 @@
+body {
+    background-color: #b8a478d7;
+    display: block;
+    margin: 8px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #608514;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    text-transform: capitalize;
+    max-width: fit-content;
+    margin: 20px auto;
+    color: #608514;
+    border: 0.5px solid #CBB28F;
+    padding: 10px 150px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: auto;
+    }
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: 30px;
+}
+
+p {
+    line-height: 2;
+    font-size: 15px;
+    margin: 20px 0 20px;
+    padding: 0 65px 0 65px;
+    font-weight: bold;
+    color:#608514;
+    text-transform: uppercase;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background: #608514;
+    color: #FED642;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: double;
+    border-radius: 30px;
+    box-shadow: 5px 8px 10px rgba(0, 0, 1, 0.5);
+    transition: all 200ms ease-in-out;
+}
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.container {
+    background: linear-gradient(94.5deg, rgb(255, 235, 104) -1.2%, rgb(61, 247, 255) 119.2%);
+    max-width: auto;
+    margin: 0 auto;
+    padding: 10px 60px;
+    border-radius: 30px;
+}
+
+.ask-me {
+    color: #52483E;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ask-me:hover {
+    text-decoration: underline;
+    color: #608514;
+}
+
+.footer {
+    text-align: center;
+    color: #52483E;
+    margin: 50px auto;
+    opacity: 0.7;
+    font-size: 15px;
+    font-style: italic;
+    text-transform:none;
+}
+
+a{
+    text-decoration: none;
+    color: #608514;
+}
