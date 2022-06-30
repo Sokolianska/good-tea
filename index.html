@@ -1,0 +1,136 @@
+<!DOCTYPE html>	
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>GoodTea 🌿</title>
+	<style>
+        body{
+        background-color:#b8a478d7;
+        display: block;
+        margin: 8px;
+        font-family: Roboto, sans-serif;
+      }
+
+	h1 {
+	text-align: center;
+	color: #608514;
+	}
+	
+	h2 {
+	text-align: center;
+    color:#52483E;
+	border: 1px solid #608514;
+	padding: 20px;
+	font-size: 30px;
+	border-radius: 30px;
+	}
+	
+	img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	border-radius: 10px;
+	}
+	
+	p {
+	line-height: 2.5;
+	font-size: 20px;
+	margin: 20px 0 10px;
+    font-weight: bold;
+	}
+	
+	button {
+	display: block;
+	margin: 30px auto;
+	background: #608514;
+	color: #FED642;
+	font-size: 18px;
+	padding: 15px 20px;
+	border: double;
+	border-radius: 30px;
+	box-shadow: 5px 8px 10px rgba(0, 0, 1, 0.5);
+	transition: all 200ms ease-in-out;
+	}
+	
+	button:hover {
+	opacity: 0.6;
+	cursor: pointer;
+	}
+	
+	.container {
+    background: linear-gradient(94.5deg, rgb(255, 235, 104) -1.2%, rgb(61, 247, 255) 119.2%);
+	max-width: auto;
+	margin: 0 auto;
+	padding: 10px 60px;
+    border-radius: 30px;
+	}
+	
+	.ask-me {
+	color: #52483E;
+	text-decoration: none;
+	font-size: 22px;
+    font-weight: bold;
+	}
+	
+	.ask-me:hover {
+	text-decoration: underline;
+    color: #608514;
+	}
+	
+	.footer {
+	text-align: center;
+    color: #52483E;
+    margin: 50px auto;
+    opacity: 0.7;
+    font-size: 16px;
+	}
+	</style>
+	</head>
+	<body>
+	<div class="container">
+	<h1>
+	Good Tea
+	</h1>
+	<h2>
+	Your way to health
+	</h2>
+    <img
+	src="https://www.hogarmania.com/archivos/201603/salud-propiedades-te-verde-668x400x80xX.jpg"
+	alt="Good Tea"
+	/>
+	<p>
+        Having a cup of your tea may be a pleasant way to carve out some self-indulgence time and stimulate your bodily and mental well-being in a subtle way.
+        <br />But always keep in mind that, as the saying goes, <em>“one swallow does not a summer make”</em>, and the most potent health benefits are best reaped by leading a healthful, wholesome lifestyle.
+	</p>
+    <hr>
+	<a class="ask-me"
+	href="https://www.instagram.com/sokoltea/"
+	target="_blank">
+	Ask me - What are the best teas for Your health🌿
+	</a>
+	<button class="choose-button">
+        💫Choose Tea
+	</button>
+	<p class="footer">
+	This page was built by Olha Sokolianska
+	</a>
+	</p>
+	</div>
+	<script>
+	function choose() {
+	let name = prompt("What is your name?");
+	let tea = prompt("What is your favorite tea?");
+	
+    if (tea ==="green") {
+            alert(name+"! 🌈Green tea is super for your health! ");
+            } else {
+            alert(name+"! 🎏Drink this tea carefully... ");
+            }
+		}
+	
+	let chooseButton = document.querySelector(".choose-button");
+	chooseButton.addEventListener("click", choose);
+	</script>
+	</body>
+	</html>
